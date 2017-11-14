@@ -1,5 +1,10 @@
 #!/usr/bin/python
+#
+# The source code of this script is from:
 # https://pjreddie.com/projects/mnist-in-csv/
+# Original MNIST dataset can be downloaded from:
+# http://yann.lecun.com/exdb/mnist/ 
+
 def convert(imgf, labelf, outf, n):
     f = open(imgf, "rb")
     o = open(outf, "w")
